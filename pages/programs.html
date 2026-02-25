@@ -1,0 +1,132 @@
+<section class="py-5 bg-white" id="programs">
+    <div class="container py-lg-4">
+
+        <div class="text-center mb-5">
+            <h6 class="text-primary fw-bold text-uppercase tracking-widest mb-2">Excellence in Technology</h6>
+            <h2 class="fw-extrabold display-5 mb-3">Academic Programs</h2>
+            <div class="mx-auto bg-warning mb-4" style="height: 4px; width: 60px; border-radius: 2px;"></div>
+            <p class="text-muted mx-auto" style="max-width: 600px;">
+                Our curriculum is constantly updated to align with global industry standards, 
+                ensuring our graduates are ready for the competitive IT landscape.
+            </p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card program-card border-0 shadow-sm h-100 p-4">
+                    <div class="program-icon-wrapper mb-4">
+                        <i class="fas fa-laptop-code fa-2x text-primary position-relative z-index-2"></i>
+                        <div class="icon-shape"></div>
+                    </div>
+                    <h4 class="fw-bold mb-3">Information Technology</h4>
+                    <p class="text-secondary small mb-4">
+                        A comprehensive study of software engineering, database management, 
+                        and systems analysis designed for future tech leaders.
+                    </p>
+                    <hr class="mt-auto opacity-10">
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <span class="badge bg-light text-primary border border-primary border-opacity-25 px-3 py-2">4 Years</span>
+                        <a href="#" class="text-primary text-decoration-none fw-bold small program-link">
+                            Learn More <i class="fas fa-chevron-right ms-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card program-card border-0 shadow-sm h-100 p-4">
+                    <div class="program-icon-wrapper mb-4">
+                        <i class="fas fa-network-wired fa-2x text-primary position-relative z-index-2"></i>
+                        <div class="icon-shape"></div>
+                    </div>
+                    <h4 class="fw-bold mb-3">Computer Systems</h4>
+                    <p class="text-secondary small mb-4">
+                        Master the backbone of IT infrastructure. Focuses on networking, 
+                        cybersecurity, and advanced hardware troubleshooting.
+                    </p>
+                    <hr class="mt-auto opacity-10">
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <span class="badge bg-light text-primary border border-primary border-opacity-25 px-3 py-2">2 Years</span>
+                        <a href="#" class="text-primary text-decoration-none fw-bold small program-link">
+                            Learn More <i class="fas fa-chevron-right ms-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card program-card border-0 shadow-sm h-100 p-4">
+                    <div class="program-icon-wrapper mb-4">
+                        <i class="fas fa-code fa-2x text-primary position-relative z-index-2"></i>
+                        <div class="icon-shape"></div>
+                    </div>
+                    <h4 class="fw-bold mb-3">Software Development</h4>
+                    <p class="text-secondary small mb-4">
+                        Specialized training in full-stack development, mobile app 
+                        creation, and modern DevOps practices using Agile methodologies.
+                    </p>
+                    <hr class="mt-auto opacity-10">
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <span class="badge bg-light text-primary border border-primary border-opacity-25 px-3 py-2">Short Course</span>
+                        <a href="#" class="text-primary text-decoration-none fw-bold small program-link">
+                            Learn More <i class="fas fa-chevron-right ms-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<style>
+    .fw-extrabold { font-weight: 800; }
+    
+    .program-card {
+        border-radius: 1.25rem;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        border-bottom: 4px solid transparent !important;
+    }
+
+    .program-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 40px rgba(0,0,0,0.08) !important;
+        border-bottom: 4px solid var(--bs-primary) !important;
+    }
+
+    .program-icon-wrapper {
+        position: relative;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon-shape {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: var(--bs-primary);
+        opacity: 0.1;
+        border-radius: 16px;
+        transform: rotate(-15deg);
+        transition: transform 0.3s ease;
+    }
+
+    .program-card:hover .icon-shape {
+        transform: rotate(0deg) scale(1.1);
+        opacity: 0.15;
+    }
+
+    .program-link i {
+        transition: transform 0.2s ease;
+    }
+
+    .program-link:hover i {
+        transform: translateX(4px);
+    }
+
+    .z-index-2 { z-index: 2; }
+</style>
